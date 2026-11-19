@@ -1,1 +1,3 @@
 Hello from developer 2
+
+This file updated by the developer 1
