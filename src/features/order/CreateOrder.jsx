@@ -38,6 +38,7 @@ const isValidPhone = (str) =>
 //   },
 // ];
 
+//This is the CreateOrder Components Code
 function CreateOrder() {
   const navigation = useNavigation();
   const isSubmitting = navigation.state === "submitting";
@@ -135,7 +136,7 @@ function CreateOrder() {
             onChange={(e) => setWithPriority(e.target.checked)}
           />
           <label htmlFor="priority" className="font-bold text-stone-800">
-            Want to yo give your order priority?
+            Would you want your order priority?
           </label>
         </div>
 
