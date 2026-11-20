@@ -66,7 +66,9 @@ function CreateOrder() {
 
   return (
     <div className="p-4">
-      <h2 className="mb-8 text-xl font-semibold">Ready to order? Let's go!</h2>
+      <h2 className="mb-8 text-xl font-semibold">
+        People Order Pizza? Let's go!
+      </h2>
 
       <Form method="POST" className="space-y-6">
         <div className="label">
